@@ -22,3 +22,12 @@ If you want the page to refresh every 10 seconds (extra dopamine):
 Add this inside <head>:
     <meta http-equiv="refresh" content="10">
 
+If you use supera.sh then....
+
+
+1) Machine proof
+        curl -s localhost/healthz
+
+2) Engineer proof 
+        curl -s localhost/metadata | jq .
+
