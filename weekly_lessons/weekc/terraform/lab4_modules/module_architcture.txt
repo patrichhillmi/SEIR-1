@@ -1,0 +1,21 @@
+terraform/
+│
+├── main.tf                ← calls modules
+├── variables.tf
+├── locals.tf
+├── outputs.tf
+│
+├── modules/
+│   ├── vpc/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   │
+│   └── gke/
+│       ├── main.tf
+│       ├── variables.tf
+│       └── outputs.tf
+│
+├── dev.tfvars
+├── stage.tfvars
+└── prod.tfvars
